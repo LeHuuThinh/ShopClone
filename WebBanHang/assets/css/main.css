@@ -1,6 +1,6 @@
 .header{
     height: var(--header-height);
-    background-image: linear-gradient(0,#fe6433,#f53e2d);
+    background-color: var(--primary-color);
 }
 
 .header__navbar{
@@ -297,6 +297,10 @@
    cursor: pointer;
 }
 
+.dkdn:last-child{
+    display: none;
+}
+
 
 
 .dkdn__input{                      /*Các ô input*/
@@ -421,7 +425,7 @@
     border-radius: 2px;
     box-shadow: 0 1px 3px #a0a0a0;
     display: none;
-    z-index: 1;
+    z-index: 2;
 }
 
 .header__search-input:focus ~ .header__search-history{
